@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mi_primer_app/my_home_page.dart';
+import 'package:mi_primer_app/screens/my_home_page.dart';
 import 'package:mi_primer_app/providers/my_app_state.dart';
 import 'package:provider/provider.dart';
 
