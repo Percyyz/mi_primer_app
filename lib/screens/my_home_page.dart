@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mi_primer_app/screens/favorite.dart';
 import 'package:mi_primer_app/screens/generator_page.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -18,7 +19,7 @@ class _MyHomePageState extends State<MyHomePage> {
         page=GeneratorPage();
         break;
       case 1:
-        page= Placeholder();
+        page= FavoritePage();
         break;
       default:
         throw UnimplementedError('no widget for $selectedIndex');
